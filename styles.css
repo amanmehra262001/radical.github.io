@@ -4,19 +4,30 @@
 }
 
 .full-container {
-    width: 100vw;
     height: 100vh;
     overflow: hidden;
-    background-image: url(./assets/classroom2-resize.png);
+    background-image: url(./assets/classroom2.svg);
     color: white;
 }
 
+.full-container img {
+    position: absolute;
+    z-index: 0;
+    width: 100vw;
+}
+
 .title-text {
+    z-index: 10;
+    position: absolute;
     margin-top: 20vh;
     margin-left: 5vw;
     height: 50vh;
     width: 40rem;
     flex-wrap: wrap;
+}
+
+.title-text h1 {
+    font-size: 5rem;
 }
 
 .navbar div:hover {
