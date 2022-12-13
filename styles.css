@@ -4,6 +4,7 @@
 }
 
 .full-container {
+    width: 100vw;
     height: 100vh;
     overflow: hidden;
     background-image: url(./assets/classroom2-resize.png);
