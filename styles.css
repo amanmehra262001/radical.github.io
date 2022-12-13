@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.full-container {
+    height: 100vh;
+    overflow: hidden;
+    background-image: url(./assets/classroom2-resize.png);
+    color: white;
+}
+
+.title-text {
+    margin-top: 20vh;
+    margin-left: 5vw;
+    height: 50vh;
+    width: 40rem;
+    flex-wrap: wrap;
+}
+
+.navbar div:hover {
+    background-color: rgba(255, 255, 0, 0.542);
+    border-radius: 50px;
+    font-weight: bolder;
+}
