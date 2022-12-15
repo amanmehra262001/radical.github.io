@@ -3,23 +3,52 @@
     padding: 0;
 }
 
-.full-container {
-    height: 100vh;
-    overflow: hidden;
-    background-image: url(./assets/classroom2.svg);
+.mainframe {
+    /* height: 100vh; */
+    /* overflow: hidden; */
+    /* background-image: url(./assets/classroom.svg); */
     color: white;
 }
 
-.full-container img {
+.mainframe img {
+    height: 100%;
     position: absolute;
+    overflow: hidden;
     z-index: 0;
-    width: 100vw;
+    top: 0;
+    background-size: cover;
 }
 
 .search-bar {
     border: 2 solid white;
 }
 
+.navbar {
+    width: 50%;
+}
+
+.title-text {
+    z-index: 10;
+    font-size: 1.5vw;
+    width: 75vw;
+    padding: 25px;
+}
+
+@media (max-width:768px) {
+    .navbar {
+        width: 75%;
+    }
+    .title-text {
+        font-size: 3vw;
+        width: 100vw;
+    }
+    .title-text button {
+        font-size: 1.7vw;
+    }
+}
+
+
+/* 
 .title-text {
     z-index: 10;
     position: absolute;
@@ -32,10 +61,14 @@
 
 .title-text h1 {
     font-size: 5rem;
-}
+} */
 
 .navButton:hover {
     background-color: rgba(255, 255, 0, 0.542);
     border-radius: 50px;
     font-weight: bolder;
+}
+
+.utility-button {
+    size: 50%;
 }
