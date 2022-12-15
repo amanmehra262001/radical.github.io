@@ -11,7 +11,8 @@
 }
 
 .mainframe img {
-    height: 100%;
+    width: 100%;
+    height: 100vh;
     position: absolute;
     overflow: hidden;
     z-index: 0;
@@ -34,9 +35,16 @@
     padding: 25px;
 }
 
+.title-text h1 {
+    color: rgb(255, 217, 0);
+}
+
 @media (max-width:768px) {
     .navbar {
         width: 75%;
+    }
+    .navbar:hover {
+        background-color: none;
     }
     .title-text {
         font-size: 3vw;
@@ -44,6 +52,9 @@
     }
     .title-text button {
         font-size: 1.7vw;
+    }
+    .mainframe img {
+        width: auto;
     }
 }
 
@@ -67,8 +78,4 @@
     background-color: rgba(255, 255, 0, 0.542);
     border-radius: 50px;
     font-weight: bolder;
-}
-
-.utility-button {
-    size: 50%;
 }
