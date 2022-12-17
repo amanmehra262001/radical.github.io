@@ -11,8 +11,12 @@
     height: 100vh;
 }
 
+.promotional-banner {
+    width: 100vw;
+}
+
 .tagline {
-    margin-top: 50px;
+    margin-top: 1px;
     margin-bottom: 50px;
     background: linear-gradient(red, rgb(255, 81, 0));
     opacity: 0.9;
@@ -42,6 +46,10 @@
 
 .statistics img {
     width: 25%;
+}
+
+.color-red {
+    color: rgb(170, 13, 13);
 }
 
 .extras {
