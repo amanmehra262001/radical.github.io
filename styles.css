@@ -63,3 +63,26 @@
 .text-decoration-none {
     text-decoration: none;
 }
+
+.about-radical-text {
+    background-color: rgba(240, 237, 237, 0.692);
+    border-radius: 5px;
+    box-shadow: 1px 2px #dad5d5, 2px 4px #dad5d5;
+    display: flex;
+    height: 500px;
+    font-size: large;
+}
+
+.about-radical-text img {
+    width: 50%;
+}
+
+@media (max-width:768px) {
+    .about-radical-text {
+        flex-direction: column;
+        height: auto;
+    }
+    .about-radical-text img {
+        width: 100%;
+    }
+}
