@@ -11,6 +11,10 @@
     height: 100vh;
 }
 
+.navbar a img {
+    height: 80px;
+}
+
 .promotional-banner {
     width: 100vw;
 }
