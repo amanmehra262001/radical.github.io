@@ -24,6 +24,7 @@
     justify-content: center;
     align-items: center;
     color: antiquewhite;
+    text-transform: capitalize;
 }
 
 .statistics {
@@ -60,10 +61,14 @@
 }
 
 .extras-div div {
-    background-image: url('./assets/Bgimage.png');
+    background-image: url('./assets/world-map.png');
     width: 300px;
     background-color: white;
     box-shadow: 1px 2px #afacac, 2px 4px #efeded, -1px -2px #afacac, -2px -4px #efeded;
+}
+
+.extras-div div h5 {
+    color: maroon;
 }
 
 #accordion h5 {
