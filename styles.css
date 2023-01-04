@@ -6,7 +6,7 @@
 }
 
 .topic{
-    font-size: xx-large;
+    font-size: 180%;
     font-weight: bold;
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -28,13 +28,18 @@
 
 .hero-page{
     padding: 50px;
+    font-size: xx-large;
 }
 
 @media (max-width:750px) {
+    .topic{
+        font-size: xx-large;
+    }
     .hero-page{
         display: flex;
         flex-direction: column;
         padding: 20px;
+        font-size: medium;
     }
 
     .hero-page div p{
